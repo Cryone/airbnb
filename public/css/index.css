@@ -1,0 +1,58 @@
+.navbar  {height: 80px; position: fixed; grid-template-rows: 70px 70px; z-index: 200;}
+
+.logo {place-items: center start; height: 30px; }
+#upper-navbar-container img {height: 50px;}
+#lower-navbar-container {grid-template-columns: 1fr 0.05fr 0.2fr}
+
+
+
+.circle {height: 35px; width: 35px; border-radius: 50%; }
+.search-bar {border-radius: 50px; padding: 10px 0px; grid-template-columns: 0.8fr 0.8fr 1fr 50px;}
+.search-bar:hover {box-shadow: 2px 2px 10px rgba(78, 73, 73, 0.549);}
+.ptb5 {padding: 5px 0px 5px 0px;}
+.bar {border-radius: 50px; padding: 8px; }
+.bar:hover {background-color: rgb(223, 223, 223);}
+.bar-box {border-radius: 50px; padding: 8px;}
+.bar-box:hover {box-shadow: 2px 2px 10px rgba(78, 73, 73, 0.549);}
+#house-type {grid-template-columns: repeat(10, auto);}
+.category-items:hover{border-bottom: solid 2px rgba(78, 73, 73, 0.549);}
+.item {font-size: 32px;}
+.filtres {grid-template-columns: 30px 1fr; border: solid 0.2px rgb(207, 207, 207); border-radius: 10px; width: 100px; }
+/* .filtres_ {border-radius: 50%;} */
+.homepage { padding: 10px;padding-top: 15%!important;}
+
+.product-img img {width: 100%; height: 100%; border-radius: 20px; object-fit: cover;}
+.product-img {width: 200px; height: 300px;}
+.products-container {grid-template-rows: 500px;}
+.card-product {border-radius: 20px; grid-template-rows: 1fr 0.5fr; text-align: left; width: 300px;}
+
+#navbar-mobile {display: none;}
+/* RESPONSIVE */
+@media screen and (min-width : 0px) and (max-width : 800px) {   
+    .homepage { padding: 0px;}
+    .navbar  {display: none!important}
+    #navbar-mobile {display: grid;}
+    .search-bar {border-radius: 50px; padding: 10px 0px; grid-template-columns: 0.2fr 1fr 0.2fr!important}
+    .search-bar:hover {box-shadow: 2px 2px 10px rgba(78, 73, 73, 0.549);}
+    .products-container {grid-template-rows: 450px;}
+    .card-product {width: 350px;}
+    .product-img {width: 345px!important; height: 300px;}
+
+}
+
+/* 
+.home-container-left {padding: 15% 0px 0px 20%}
+.container-img img {height: 650px; border-radius: 0px 0px 0px 200px;}
+#links-container {gap: 20px;}
+.link:hover {font-weight: bold;}
+
+.button {width: 120px; border: solid 1px rgb(10, 173, 237) ; border-radius: 150px 0 150px 0; text-align: center; cursor: pointer; padding: 10px;} 
+.shadow-blue {box-shadow: 1px 25px 35px rgba(10, 173, 237, 0.377)}
+.numbers {font-size: 25px;}
+.numbers-container {padding-bottom: 30%}
+.bottom-container {padding: 50px 10% 0px 10%} */
+
+
+@media screen and (min-width : 0px) and (max-width: 800px) {}
+
+
