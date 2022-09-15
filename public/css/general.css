@@ -27,6 +27,7 @@
 }
 .small-text {font-size: 12px;}
 .big-text {font-size: 18px;}
+.very-big-text {font-size: 25px;}
 .inline-block {display: inline-block;}
 
 /* définir les types de couleurs */
@@ -34,7 +35,7 @@
 .black {background-color: black;}
 .blue {background-color:rgb(10, 173, 237);;}
 .gray {background-color: rgb(247 247 247 / 89%);}
-.dark-gray {background-color: rgb(107, 101, 101);}
+.dark-gray {background-color: rgb(83, 83, 83);}
 .red {background-color: #FF5A5F;}
 
 
@@ -42,7 +43,7 @@
 .text-white {color: white;}
 .text-black {color: black;}
 .text-blue {color: rgb(10, 173, 237);}
-.text-gray {color: rgb(168, 168, 168);}
+.text-gray {color: rgb(133, 133, 133);}
 .text-red {color: rgb(150, 41, 57);}
 
 
@@ -59,9 +60,12 @@
 .pt40 {padding-top: 40px;} 
 
 
+.pl10 {padding-left: 10px;} 
 .pl20 {padding-left: 20px;} 
 .pl30 {padding-left: 30px;} 
 .pl40 {padding-left: 40px;} 
+.pl50 {padding-left: 50px;} 
+.pl60 {padding-left: 60px;} 
 
 .pr20 {padding-right: 20px;} 
 .pr30 {padding-right: 30px;} 
@@ -93,3 +97,10 @@
 .radius30 {border-radius: 30px;}
 .pointer {cursor: pointer;}
 .br {border-right: solid 1px rgb(218, 218, 218);}
+
+
+.radius20 {border-radius: 20px;}
+.radius30 {border-radius: 30px;}
+
+
+
