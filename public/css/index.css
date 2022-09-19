@@ -23,7 +23,7 @@
 
 .product-img img {width: 100%; height: 100%; border-radius: 20px; object-fit: cover;}
 .product-img {width: 200px; height: 300px;}
-.products-container {grid-template-rows: 500px;}
+.products-container {grid-template-rows: 500px; padding-top: 162px;}
 .card-product {border-radius: 20px; grid-template-rows: 1fr 0.5fr; text-align: left; width: 300px;}
 
 #navbar-mobile {display: none;}
