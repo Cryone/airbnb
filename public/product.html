@@ -11,7 +11,7 @@
 </head>
 <body>
         <!-- ************* NAVBAR ********** --> 
-<div class="grid center white w100 navbar" style="padding: 0px 20px">
+<div class="grid center white w100 navbar-product" style="padding: 0px 20px">
 
 
 
@@ -19,7 +19,9 @@
         <!-- ** UPPER NAVBAR ** -->
     <div id="upper-navbar-container" class="grid center c3 w100 vw100">
         <div class="grid logo w100 pl20 ">
+            <a href="./index.html">
                 <img class="pointer" src="./img/airbnb_logo.png" alt="airbnb_logo">
+            </a>
         </div>
         <div class="grid center navbar-data search-bar shadow pointer p10">
             <div class="grid text-black bold w100 p10 pl40 text-gray">Commencez votre recherche</div>
@@ -43,7 +45,7 @@
         <!-- ** Product-page ** -->
 
 <div class="grid center w100 product-page" >
-    <div class="grid w100 center w100 header-page pt40">
+    <div class="grid w100 center w100 header-page">
         
 
         <div class="grid w100 p10 product-title">
@@ -95,14 +97,14 @@
             <div class="grid pt10 r3 bb">
                 <div class="grid pt10" style="grid-template-columns: 30px 1fr;">
                     <div class="w100 text-black pt10"><i class="fa-regular fa-heart"></i></div>
-                    <div style="w100 grid-template-rows: 100px 100px;">
+                    <div style="grid-template-rows: 100px 100px;">
                         <div class="w100 bold text-black pt10">Miguel Angel est Superhôte</div>
                         <div class="w100 text-gray pt10">Les Superhôtes sont des hôtes expérimentés qui bénéficient de très bonnes évaluations et qui s'engagent à offrir d'excellents séjours aux voyageurs.</div>
                     </div>
                 </div>
                 <div class="grid pt10" style="grid-template-columns: 30px 1fr;">
                     <div class="w100 text-black pt10"><i class="fa-regular fa-heart"></i></div>
-                    <div style="w100 grid-template-rows: 1fr 1fr;">
+                    <div style="grid-template-rows: 1fr 1fr;">
                         <div class="w100 bold text-black pt10">Idéalement situé
                         </div>
                         <div class="w100 text-gray pt10">100 % des voyageurs ont attribué 5 étoiles à l'emplacement du logement.
@@ -240,7 +242,6 @@
                 </div>
                 <div class="grid pt20 bb">
                     <div class="grid text-black bold pointer center w100" style="border: solid 1px gray; border-radius: 10px; width: 250px; height: 40px;">Afficher les 21 équipements</div>
-                    
                 </div>
             </div>
         </div>
@@ -249,86 +250,82 @@
         
         
         
-        <div id="product-reservation" class="grid center ">
-            <div  class="grid center product-reservation-box shadow p10">
-                <div class="grid c2 p10 h100 w100" >
-                    <div class="grid inline-block bold text-black small-text">210$ <span class="text-black"> par nuit</span> 
-                    </div>
-                    <div class="text-black bold small-text">
-                        <i class="fa-sharp fa-solid fa-star text-black small-text"></i>5,10 <span class="text-gray pointer text-underline small-text">12commentaires</span> 
-                    </div>
-                </div>
-                <div class="product-reservation-box-inner w100 ">
-                    <div class="inline-block w100 dates">
-                        <div class="inline-block h100 pr20" style="border-right: 1px solid rgb(216, 216, 216); height: 100%;">
-                            <div class="text-black pointer pt10 small-text" >Arrivés</div>
-                            <input type="date">
+        <div class="grid center p10 start">
+            <div class="grid center p10" style=" grid-template-rows: 1fr 30px;top: 0;position: sticky;">
+                <div  class="grid center product-reservation-box shadow">
+                    <div class="grid c2 p10 h100 w100" >
+                        <div class="grid inline-block bold text-black small-text">210$ <span class="text-black"> par nuit</span> 
                         </div>
-                        <div class="inline-block">
-                            <div class="text-black pointer  small-text">Départs</div>
-                            <input class=""" type="date">
+                        <div class="text-black bold small-text">
+                            <i class="fa-sharp fa-solid fa-star text-black small-text"></i>5,10 <span class="text-gray pointer text-underline small-text">12commentaires</span> 
                         </div>
                     </div>
-                    <div>
+                    <div class="product-reservation-box-inner w100 ">
+                        <div class="inline-block w100 dates">
+                            <div class="inline-block h100 pr20" style="border-right: 1px solid rgb(216, 216, 216); height: 100%;">
+                                <div class="text-black pointer pt10 small-text" >Arrivés</div>
+                                <input type="date">
+                            </div>
+                            <div class="inline-block">
+                                <div class="text-black pointer  small-text">Départs</div>
+                                <input class=""" type="date">
+                            </div>
+                        </div>
                         <div>
-                            <form>
-                                <div id="travelers">
-                                    <select class="text-black pointer">
-                                        <option value="Null" hidden>Voyageurs</option>
-                                        <option value="A">Adultes</option>
-                                        <option value="E">Enfants</option>
-                                        <option value="B">Bébés</option>
-                                        <option value="Q">Animaux de compagnie</option>
-                                    </select><br>
-                                </div>
-                            </form>
+                            <div>
+                                <form>
+                                    <div id="travelers">
+                                        <select class="text-black pointer">
+                                            <option value="Null" hidden>Voyageurs</option>
+                                            <option value="A">Adultes</option>
+                                            <option value="E">Enfants</option>
+                                            <option value="B">Bébés</option>
+                                            <option value="Q">Animaux de compagnie</option>
+                                        </select><br>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="grid center w100 gap20">
-                    <div class="grid center text-white product-reservation-box-inner w100 red-airbnb pointer" style="height: 50px;">
-                        Réserver
+                    <div class="grid center w100 gap20">
+                        <div class="grid center text-white product-reservation-box-inner w100 red-airbnb pointer" style="height: 50px;">
+                            Réserver
+                        </div>
+    
+                        <div class="grid center w100 text-center">Aucun montant ne vous sera débité pour le moment
+                        </div>
                     </div>
-
-                    <div class="grid center w100 text-center">Aucun montant ne vous sera débité pour le moment
+                    <div class=" grid r3 w100">
+                        <div class="price-details grid ">
+                            <div class="text-underline">210 $ x 5 nuits</div> 
+                            <div>1050 $</div> 
+                        </div>
+                      
+                        <div class="price-details grid ">
+                            <div class="grid text-underline">Frais de ménage</div> 
+                            <div>40 $</div> 
+                        </div>
+                        <div class="price-details grid ">
+                            <div class="grid text-underline">Frais de service</div> 
+                            <div>185 $</div> 
+                        </div>
                     </div>
-                </div>
-                <div class=" grid r3 w100">
-                    <div class="price-details grid ">
-                        <div class="text-underline">210 $ x 5 nuits</div> 
-                        <div>1050 $</div> 
+                    <div class="grid price-details bold bt w100 pt20">
+                        <div class="grid">Total</div>
+                        <div class="grid">1275 $</div>
                     </div>
-                  
-                    <div class="price-details grid ">
-                        <div class="grid text-underline">Frais de ménage</div> 
-                        <div>40 $</div> 
+                        
+                </div>
+                <div class="grid center small-text text-gray text-underline w100 pt50 pointer">
+                    <div class="grid center inline-block">
+                        <i class="fa-regular fa-flag p10"></i>
+                        Signaler cette annonce
                     </div>
-                    <div class="price-details grid ">
-                        <div class="grid text-underline">Frais de service</div> 
-                        <div>185 $</div> 
-                    </div>
-                </div>
-                <div class="grid price-details bold bt w100 pt20">
-                    <div class="grid">Total</div>
-                    <div class="grid">1275 $</div>
-                </div>
-                    
-            </div>
-                </div>
-
-    </div>
+                </div>       
             </div>
         </div>
-       
     </div>
-    
 </div>
-
-
-
-
-
-
 
 </body>
 <script src="https://kit.fontawesome.com/ddd97c639a.js" crossorigin="anonymous"></script>

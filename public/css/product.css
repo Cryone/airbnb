@@ -1,8 +1,8 @@
 .navbar  {height: 100px; position: absolute; grid-template-rows: 70px; z-index: 200; border-bottom: 1.5px solid rgb(231, 231, 231);}
-#navbar-product {height: 30px; width: 50%; position: sticky; z-index: 200; border-bottom: 1.5px solid rgb(231, 231, 231);}
-.
+.navbar-product {height: 100px; width: 50%; position: sticky; z-index: 200; border-bottom: 1.5px solid rgb(231, 231, 231);}
+
 .logo {place-items: center start; height: 30px; }
-#upper-navbar-container {height: 30px;}
+#upper-navbar-container {height: 100px;}
 #upper-navbar-container img {height: 50px;}
 #lower-navbar-container {grid-template-columns: 1fr 0.05fr 0.2fr}
 
@@ -17,8 +17,8 @@
 
 .product-img img {width: 100%; height: auto; ; object-fit: cover; border-radius: 10px;}
 /* .product-img {width: 200px; height: 300px;} */
-.product-page {grid-template-rows: 0.5fr 0.5fr 0.7fr 1fr;}
-.header-page {border-radius: 20px; grid-template-rows: 0.3fr 0.3fr; height: 50px;}
+.product-page {grid-template-rows: 0.1fr 0.3fr 0.7fr 1fr;}
+.header-page {border-radius: 20px;}
 .product-title {grid-template-rows: 0.3fr 0.3fr;}
 .product-title-option {grid-template-columns: 1fr 0.3fr;}
 
@@ -27,10 +27,10 @@
 .product-gallery {width: 92%; grid-template-columns: 1fr 0.5fr 0.5fr;} 
 .products-gallery img {border: 0px solid rgb(0, 0, 0); width: 100%; height: 100%; position: relative;} 
 /* .product-img {width: 80%;}  */
-.product-img :hover{opacity: 0.8;}
+.product-img :hover{filter: brightness(0.85);}
 
 #product-reservation {}
-.product-reservation-box {border-radius: 10px; grid-template-rows: 0.2fr 0.4fr 0.4fr 0.4fr 0.2fr; position: sticky; z-index: 100; top: 0; padding: 25px 35px!important; gap: 20px;}
+.product-reservation-box {border-radius: 10px; grid-template-rows: 0.2fr 0.4fr 0.4fr 0.4fr 0.2fr; z-index: 100; top: 0; padding: 25px 35px!important; gap: 20px;}
 .product-reservation-box-inner {border: solid 1px rgb(216, 216, 216); border-radius: 10px;}
 .dates {border-bottom: 1px solid rgb(216, 216, 216); height: 50px;}
 
