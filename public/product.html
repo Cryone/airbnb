@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./css/product.css">
     <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/product.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +11,6 @@
 </head>
 <body>
         <!-- ************* NAVBAR ********** --> 
-<div class="grid center white w100 navbar-product" style="padding: 0px 20px">
-
-
-
-
         <!-- ** UPPER NAVBAR ** -->
     <div id="upper-navbar-container" class="grid center c3 w100 vw100">
         <div class="grid logo w100 pl20 ">
@@ -42,6 +37,17 @@
         </div>
     </div>
 </div>
+        <!-- ** Navbar mobile ** -->
+<div class="grid center white w100 navbar-product-mobile" >
+    <div class="grid w100 center"><i class="fa-solid fa-angle-left text-black"></i></div>
+    <div class="grid w100">Logements</div>
+    <div class="grid w100 inline-block ">
+        <i class="fa-solid fa-arrow-up-from-bracket text-black center"></i>
+        <i class="fa-regular fa-heart text-black pl10 center"></i>
+    </div>
+</div> 
+
+
         <!-- ** Product-page ** -->
 
 <div class="grid center w100 product-page" >
@@ -66,27 +72,35 @@
         <div class="grid center product-img pointer">
             <img src="./img/1.jpg" alt="">
         </div>
-        <div class="grid center r2">
+        <div class="grid center r2 img-none">
             <div class="grid center product-img pointer">
                 <div class="grid center p10">
                     <img src="./img/1.jpg" alt="">
                 </div> 
             </div>
-            <div class="grid center product-img pointer">
+            <div class="grid center product-img pointer img-none">
                 <div class="grid center p10">
                     <img src="./img/1.jpg" alt="">
                 </div> 
             </div>
         </div>
-        <div class="grid center r2">
+        <div class="grid center r2 img-none">
             <div class="grid center  product-img pointer"><div class="grid center p10"><img src="./img/1.jpg" alt=""></div> </div>
             <div class="grid center  product-img pointer"><div class="grid center p10"><img src="./img/1.jpg" alt=""></div> </div>
         </div>
     
     </div>
-
+    <div class="w100 p10 product-title-mobile">
+        <div class=" grid very-big-text bold text-black p10 pl50"> Madrid -Spain
+        </div>
+        <div class="grid w100 product-title-option">
+            <div class="grid inline-block p10 pl50"><i class="fa-sharp fa-solid fa-star text-black small-text"></i> 4.91 <u> <b>12 commentaires &nbsp;&nbsp;&nbsp; Superhôte</b> </u> <u> <b>&nbsp;&nbsp;&nbsp;Madrid, Spain</b> </u>
+            </div>
+        </div>        
+    </div>
     
-    <div class="grid w100 p10 h100" style="grid-template-columns: 1fr 0.7fr;">
+    
+    <div id="product-details-container" class="grid w100 p10 h100">
 
         <div class="grid r2 inline-block p10 pl50">
             <div class="grid very-big-text bold text-black w100 pt10">Chambre privée dans : gîte à la ferme ⸱ Chez Debra
@@ -150,7 +164,7 @@
                 <div class="text-black bold text-big pt10"> 
                     Ce que propose ce logement
                 </div>
-                <div class="grid pt10" style="grid-template-columns: 1fr 1fr;">
+                <div id="house-equipement-options" class="grid pt10" style="grid-template-columns: 1fr 1fr;">
                     <div class="grid r5 ">
                         <div class="grid pt10"  style="grid-template-columns: 0.2fr 1fr">
                             <div>
@@ -246,7 +260,15 @@
             </div>
         </div>
     
-
+        <div class="grid product-reservation-box-mobile bt">
+            <div class="grid w100 r2">
+                <div class="text-gray inline-block"> <span class="bold text-black">210 $</span>  par nuit</div>
+                <div class=" bold text-underline"> 10-24 oct.</div>        
+            </div>
+            <div class="grid red-airbnb pointer product-reservation-box-inner">
+                Réserver
+            </div>
+        </div>
         
         
         
@@ -316,13 +338,27 @@
                     </div>
                         
                 </div>
-                <div class="grid center small-text text-gray text-underline w100 pt50 pointer">
+                <div id="item-none" class="grid center small-text text-gray text-underline w100 pt50 pointer">
                     <div class="grid center inline-block">
                         <i class="fa-regular fa-flag p10"></i>
                         Signaler cette annonce
                     </div>
                 </div>       
             </div>
+        </div>
+
+    </div>
+    <div class="grid product-reservation-box-mobile bt">
+        <div class="grid w100">
+            <div class="text-gray inline-block"> <span class="bold text-black">210 $</span>  par nuit</div>
+            <div class=" bold text-underline"> 10-24 oct.</div>        
+        </div>
+        <div class="grid center" >
+            <div class="grid red-airbnb pointer product-reservation-box-inner-mobile center text-white right">
+                
+                Réserver
+            </div>
+            
         </div>
     </div>
 </div>
