@@ -63,10 +63,10 @@
         .product-reservation-box {display: none!important;}
         .product-reservation-box-inner {display: none!important;}
         #item-none {display: none!important;}
-        .product-reservation-box-mobile {display: grid; grid-template-columns: 1fr 1fr;position: fixed;bottom: 0; width: 100vw;z-index: 300; background-color: white;padding: 20px 5px;}
+        .product-reservation-box-mobile {display: grid; grid-template-columns: 1fr 1fr;position: fixed;bottom: 0; width: 100vw;z-index: 300; background-color: white;padding: 20px 5px; padding-left: 10px;}
         .product-reservation-box-inner-mobile {display: grid!important; border: solid 1px rgb(216, 216, 216); border-radius: 10px; width: 100px; }
         #house-equipement-options {grid-template-columns: 1fr!important;}
-        #product-details-container { grid-template-columns: 1fr;}
+        #product-details-container {grid-template-columns: 1fr; padding-left: 10px}
         /* .product-gallery {width: 650px;;} */
         /* .product-title-mobile {display: grid!important} */
         /* .header-page-mobile {display: grid; height: 400px!important} */
